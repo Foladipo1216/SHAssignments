@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Bank Account Form</title>
+</head>
+<body>
+   <h1>DIVINE BANK</h1>
+   
+   <br>
+   <h2>New Account Registration Form</h2>
+
+   <br><br>
+   <form>
+      <label for="fname" >First Name:
+         <input type="text" name="fname" placeholder="Enter your first name" required/>
+      </label>
+      
+
+      <br><br>
+      <label for="lname">Last Name:
+         <input type="text" name="lname" placeholder="Enter your last name" required/>
+      </label>
+      
+
+      <br><br>
+      <label for="email">Email:
+         <input type="email" name="email" placeholder="johndoe@example.com" required/>
+      </label>
+      
+   
+      <br><br>
+      <label for="password">Password:
+         <input type="password" name="password" required/>
+      </label>
+      
+
+      <br><br>
+      <label for="password">Confirm Password:
+         <input type="password" name="password" id="password" required/>
+      </label>
+      
+
+      <br><br>
+      <label for="phone_number">Phone Number
+         <input type="tel" name-="phone_number" id="phone_number" required/>
+      </label>
+      
+
+      <br><br>
+      <label for="mmaiden_name">Mother's Maiden Name:
+         <input type="text" name="mmaiden_name" id="mmaiden_name" required/>
+      </label>
+      
+      
+      <br><br>
+      <label for="bvn">BVN:
+         <input type="number" name="bvn" id="bvn" required/>
+      </label>
+      
+
+      <br><br>
+      <label for="acc_number">Account Number:
+         <input type="number" name="acc_number" id="acc_number"/>
+      </label>
+      
+
+      <br><br>
+      <label for="nation">Nationality:
+         <select name="nation" id="nation">
+            <option value="">Select Country</option>
+            <option value="togo">Togo</option>
+            <option value="ghana">Ghana</option>
+            <option value="namibia">Namibia</option>
+            <option value="nigeria">Nigeria</option>
+            <option value="gambia">Gambia</option>
+            <option value="ivory-coast">Ivory Coast</option>
+         </select>
+   
+      </label>
+      
+      <br><br>
+      <label for="address">Residential Address:
+         <input type="text" name="address" id="address" required/>
+      </label>
+      
+
+      <br><br>
+      <label for="dob">Date of Birth
+         <input type="date" name="dob" id="dob" required/>
+      </label>
+      
+
+      <br><br>
+      <legend>Gender:</legend>
+      <label for="male">Male
+         <input type="radio" name="gender" id="male"/>
+      </label>
+      
+      <label for="female">Female
+         <input type="radio" name="gender" id="female"/>
+      </label>
+      
+      <label for="notsay">Rather not say
+         <input type="radio" name="gender" id="notsay"/>
+      </label>
+      
+
+      <br><br>
+      <legend>Marital Status:</legend>
+      <label for="single">Single
+         <input type="radio" name="mstatus" id="single"/>
+      </label>
+      
+      <label for="married">Married
+         <input type="radio" name="mstatus" id="married"/>
+      </label>
+      
+
+      <br><br>
+      <legend>Type of Account:</legend>
+      <label for="personal-acct">Personal-Account
+         <input type="radio" name="acct_type" id="personal-acct"/>
+      </label>
+      <label for="business-acct">Business-Account
+         <input type="radio" name="acct_type" id="business-acct"/>
+      </label>
+      <label for="joint-acct">Joint-Account
+         <input type="radio" name="acct_type" id="joint-acct"/>
+      </label>
+
+      <br><br>
+      <label for="description">Write a brief description of yourself
+         <textarea name="description" id="description" rows="10" cols="50"></textarea>
+      </label>
+
+      <br><br>
+      <label for="passport-photo">Upload your passport photograph
+         <input type="file" name="passport-photo" id="passport-photo"/>
+      </label>
+
+      <br><br>
+      <label for="state_of_origin">State of Origin:
+         <select name="state_of_origin" id="state_of_origin">
+            <option value="">Select State</option>
+            <option value="1">Abia</option>
+            <option value="2">Ogun</option>
+            <option value="3">Lagos</option>
+            <option value="4">Kwara</option>
+            <option value="5">Benue</option>
+            <option value="6">Nasarawa</option>
+         </select>
+      </label>
+
+      <br><br>
+      <label for="lga">LGA
+         <select name="lga" id="lga">
+            <option value="">Select LGA</option>
+            <option value="alimosho">Alimosho</option>
+            <option value="koshofe">Koshofe</option>
+            <option value="surulere">Surulere</option>
+            <option value="ibeju-lekki">Ibeju Lekki</option>
+            <option value="lagos-island">Lagos Island</option>
+            <option value="ikorodu">Ikorodu</option>
+         </select>
+      </label>
+
+      <br><br>
+      <label for="social-media">Your social media Account
+         <input type="url" name="social-media" id="social-media"/>
+      </label>
+
+   </form>
+
+</body>
+</html>
